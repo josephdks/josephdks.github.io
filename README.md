@@ -4,6 +4,8 @@
 
 Unfortunately GitHub pages doesn't currently support `jekyll-assets` this theme requires. You should like this version better: [bryanculver/minimal-jekyll-ghp](https://github.com/bryanculver/minimal-jekyll-ghp)
 
+[Demo the Theme](https://bryanculver.com/minimal-jekyll/)
+
 This is the raw HTML and styles that are used for the *minimal* theme on [GitHub Pages](http://pages.github.com/).
 
 Syntax highlighting is provided on GitHub Pages by [Pygments](http://pygments.org).
