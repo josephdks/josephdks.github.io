@@ -3,9 +3,7 @@ email: me@bryanculver.com
 description: A fork of @orderlist's Minimal theme, built for Jekyll
 baseurl: "/" 
 url: "https://minimal-jekyll.lo/"
-destination: public
 
-# Build settings
 markdown: kramdown
 
 sass:
@@ -17,7 +15,6 @@ assets:
   compress:
     css: true
     js: true
-    
   prefix: "/assets"
   digest: true
 
@@ -28,3 +25,6 @@ exclude:
   - Gemfile.lock
   - /tmp/
   - config.ru
+
+# Development Parameter for Puma 
+destination: public
