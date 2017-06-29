@@ -1,22 +1,14 @@
-# Minimal Theme (Now with GitHub Pages Safe Jekyll!)
+Steve's No-Good-Very-Bad Jekyll Theme
+=====================================
 
-*Note: I created this project before stumbling on this: [GitHub Pages Minimal Theme](https://github.com/pages-themes/minimal). For simplicity sake, that theme is a listed supported theme which means you can just flag it in your `_config.yml` file. This theme uses a bit more templating, so feel free to contribute, fork, use whichever theme you choose.*
+This is my custom Jekyll theme, which is basically [Joel Glovier](http://joelglovier.com/)'s `jekyll-new` theme smashed with [Alex King](http://www.alexking.org)'s [Favepersonal](https://crowdfavorite.com/favepersonal/) theme for Wordpress. I used Favepersonal for my Wordpress site before abandoning it. You can see my site at [svmiller.github.io](http://svmiller.github.io).
 
-## Heads up! Like this theme? Want some `jekyll-assets` sauce? Don't use GitHub pages?
+Much of what is contained in here is derivative of those two works. That said, do observe the `embedpdf.html` and `image.html` files in the `_includes` directory. `embedpdf.html` uses Google Docs to allow for embedding of PDF files hosted on Dropbox. `image.html` provides fancier images than what is standard for Markdown. An example use of `embedpdf.html` can be observed in the `cv.md` file. An example use of `image.html` can be observed in the `about.md` file.
 
-Then you might like this version better: [bryanculver/minimal-jekyll](https://github.com/bryanculver/minimal-jekyll)
+I use data-driven navigation, which you can see in the `menu.yml` file in the `_data` directory. There's also a `nav.html` file in the `_includes` directory with modified `header.html`.
 
-[Demo the Theme](https://bryanculver.github.io/minimal-jekyll-ghp/)
+Mobile support is clearly functional, though some white-spacing could be improved. Feel free to offer improvements if you'd like.
 
-This is the raw HTML and styles that are used for the *minimal* theme on [GitHub Pages](http://pages.github.com/).
+`css` and `_sass` directories also functional, if a bit cluttered. Do observe new colors I created for `$clemson-orange` and `$clemson-purple` in `css/main.scss`.
 
-Syntax highlighting is provided on GitHub Pages by [Pygments](http://pygments.org).
-
-# Attribution Notice
-Thank you [Steve Smith](https://github.com/orderedlist) for making the original version of this theme. You grab the original static page version of this theme over at: [orderedlist/minimal](https://github.com/orderedlist/minimal)
-
-# License
-This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/).
-
-
-
+Feel free to contact me at svmille@clemson.edu. Send along some cheers too if you find it useful.
