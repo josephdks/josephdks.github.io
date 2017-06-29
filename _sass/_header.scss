@@ -23,7 +23,7 @@
     color: #ffffff;
     &,
     &:visited {
-        color: $clemson-purple;
+        color: #ffffff;
     }
     &,
     &:hover {
@@ -71,6 +71,10 @@
 .site-nav a {
 	display: block;
         color: #ffffff;
+}
+
+.site-nav a:hover {
+	color: $clemson-purple;
 }
 
 /* Sub Menu */
