@@ -23,7 +23,7 @@
     color: #ffffff;
     &,
     &:visited {
-        color: #48d1cc;
+        color: #ffffff;
     }
     &,
     &:hover {
@@ -82,15 +82,15 @@
 	letter-spacing: 0;
 	line-height: 1.2em;
 	padding: 4px 10px;
-color: $clemson-purple;
+color: #ffffff;
 
 }
 
 .site-nav .sub-menu a:hover {
-	color: $clemson-orange;
+	color: $clemson-purple;
 }
 .site-nav  .sub-menu {
-	background: $clemson-orange;
+	background: #ffffff;
 	border-color: #45537c;
 	min-width: 265px;
 
