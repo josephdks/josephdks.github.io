@@ -1,10 +1,12 @@
-# Minimal Theme (Now with Jekyll!)
+# Minimal Theme (Now with GitHub Pages Safe Jekyll!)
 
-## Heads up! Want to use this on GitHub Pages?
+*Note: I created this project before stumbling on this: [GitHub Pages Minimal Theme](https://github.com/pages-themes/minimal). For simplicity sake, that theme is a listed supported theme which means you can just flag it in your `_config.yml` file. This theme uses a bit more templating, so feel free to contribute, fork, use whichever theme you choose.*
 
-Unfortunately GitHub pages doesn't currently support `jekyll-assets` this theme requires. You should like this version better: [bryanculver/minimal-jekyll-ghp](https://github.com/bryanculver/minimal-jekyll-ghp)
+## Heads up! Like this theme? Want some `jekyll-assets` sauce? Don't use GitHub pages?
 
-[Demo the Theme](https://bryanculver.com/minimal-jekyll/)
+Then you might like this version better: [bryanculver/minimal-jekyll](https://github.com/bryanculver/minimal-jekyll)
+
+[Demo the Theme](https://bryanculver.github.io/minimal-jekyll-ghp/)
 
 This is the raw HTML and styles that are used for the *minimal* theme on [GitHub Pages](http://pages.github.com/).
 
